@@ -38,15 +38,23 @@ php artisan db:seed
 "The stream or file could not be opened"エラーが発生した場合
 srcディレクトリにあるstorageディレクトリに権限を設定
 chmod -R 777 storage
+```
 
 ## 使用技術(実行環境)
+
 ・PHP 8.1.33
 ・Laravel Framework 8.83.29
 ・mysql 8.0.26
 ・nginx 1.21.1
+
 ## URL
+
 お問い合わせフォーム：http://localhost/
 
-## ER図
+## ER 図
+
 ![ER図](ER.drawio.png)
+
+```
+
 ```
